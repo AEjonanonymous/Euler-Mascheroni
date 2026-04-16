@@ -9,6 +9,11 @@ For over **250 years**, the irrationality of the **Euler-Mascheroni constant ($\
 
 This repository contains a **constructive proof** of the irrationality of $\gamma$. By leveraging Sondow's infinite series representation and associated trap criteria, we establish that a rational representation $\gamma = p/q$ necessitates the existence of an integer $Z$ such that $0 < Z < 1$—a fundamental logical impossibility.
 
+$$\sum_{k=2}^{\infty} \frac{(-1)^k}{k \cdot n^k}$$
+
+> *"The key lies in finding a representation where the remainder of the series can be shown to be 'too small' to allow for a rational denominator."*
+> — **Jonathan Sondow**
+
 ---
 
 ### 🚫 The Tail Trap Logic 
