@@ -19,6 +19,14 @@ The Lean 4 implementation verifies:
 * **$Z < 1$**: Proved by showing the gap is smaller than the smallest possible non-zero rational increment $1/q$.
 * 🏁 **The Checkmate**: Lean’s library confirms no integer $Z$ exists such that $0 < Z < 1$, falsifying the rational assumption.
 
+<p align="center">
+  <img src="https://github.com/AEjonanonymous/Euler-Mascheroni/blob/main/Geometric%20Visualization%20of%20Sondow’s%20Identity%20and%20the%20Tail%20Trap%20Mechanism.jpg?raw=true" alt="Geometric Visualization of Sondow's Identity" width="800">
+  <br>
+  <b>Figure 1</b>: <i>Geometric Realization of Sondow’s Identity and the Tail Trap Mechanism.</i>
+</p>
+
+The left panel illustrates $\gamma$ as the limiting area between the discrete harmonic staircase and the continuous logarithmic curve $y = \ln(x)$. The central zoom panel depicts the **Tail Trap** at $N = q + 2$, where the analytic remainder is captured by verified integer bounds. The logical flow maps the transition from these analytic series to the formal Lean 4 contradiction $0 < Z < 1$, establishing the irrationality of $\gamma$ with computational certainty.
+
 ---
 
 ### ✅ Why Formal Verification?
@@ -33,7 +41,7 @@ Traditional paper proofs can struggle with analytic tail estimates and the risk 
 To maintain the integrity of the verification, the following files are included:
 
 1. 📄 **A Formal Proof of the Irrationality of the Euler-Mascheroni Constant.pdf** The academic manuscript detailing the mathematical framework, Sondow’s Identity, and the Tail Trap mechanism.
-2. 💻 **Proof_Of_Euler-Mascheroni_Constant_Irrationality.lean** The complete Lean 4 source code, including data structures, series summation, and the final contradiction theorem.
+2. 💻 **`Proof_Of_Euler-Mascheroni_Constant_Irrationality.lean`** The complete Lean 4 source code, including data structures, series summation, and the final contradiction theorem.
 
 ---
 
