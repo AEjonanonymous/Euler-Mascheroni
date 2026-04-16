@@ -42,6 +42,8 @@ To maintain the integrity of the verification, the following files are included:
 
 1. 📄 **A Formal Proof of the Irrationality of the Euler-Mascheroni Constant.pdf** The academic manuscript detailing the mathematical framework, Sondow’s Identity, and the Tail Trap mechanism.
 2. 💻 **`Proof_Of_Euler-Mascheroni_Constant_Irrationality.lean`** The complete Lean 4 source code, including data structures, series summation, and the final contradiction theorem.
+3. 🖼️ Geometric Visualization of Sondow’s Identity and the Tail Trap Mechanism.jpg
+The high-resolution academic figure (Figure 1) illustrating the geometric logic of the proof and the formal verification flow.
 
 ---
 
