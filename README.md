@@ -53,9 +53,7 @@ The high-resolution academic figure (Figure 1) illustrating the geometric logic 
 ---
 
 ### ⚙️ How to Verify
-You can verify this proof instantly without installing anything! 
-
-1. Copy the contents of **Proof_Of_Euler-Mascheroni_Constant_Irrationality.lean**.
+1. Copy the contents of **`Proof_Of_Euler-Mascheroni_Constant_Irrationality.lean`**.
 2. Visit the [Lean 4 Web Editor](https://live.lean-lang.org/).
 3. Paste the code into the editor.
 
