@@ -1,0 +1,6 @@
+# Fix the color for the proof file
+"Proof_Of_Euler-Mascheroni_Constant_Irrationality.lean" linguist-language=Lean
+
+# Treat assets as binary so they don't interfere with the code colors
+"A Formal Proof of the Irrationality of the Euler-Mascheroni Constant.pdf" binary
+"Geometric Visualization of Sondow’s Identity and the Tail Trap Mechanism.jpg" binary
