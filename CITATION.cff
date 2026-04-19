@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "Please cite this research as follows."
+authors:
+  - name: "Jonathan ƒ(n)"
+title: "A Formal Proof of the Irrationality of the Euler-Mascheroni Constant (𝛾)"
+version: 1.0.0
+doi: 10.5281/zenodo.19612531
+date-released: 2026-04-16
