@@ -1,7 +1,10 @@
 import Lake
 open Lake DSL
 
-package "Euler-Mascheroni" where
+package "euler-mascheroni"
 
 @[default_target]
-lean_lib "Euler-Mascheroni" where
+lean_lib «Proof_Of_Euler_Mascheroni_Constant_Irrationality»
+
+require mathlib from git
+  "https://github.com/leanprover-community/mathlib4.git" @ "v4.29.0"
