@@ -1,0 +1,17 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "term_positivity",
+    "nat_pow_pos",
+    "terms_decreasing",
+    "tail_is_small",
+    "scaled_gap_is_small",
+    "gamma_irrational"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ]
+}
